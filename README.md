@@ -7,25 +7,27 @@ This project uses accelerometer and gyroscope data from a smartwatch to classify
 
 **Methodology**
 
-Data Source: ASUS ZenWatch 2 (Accel + Gyro)
+**Data Source**: ASUS ZenWatch 2 (Accel + Gyro)
 
-Activities: Hit vs Miss swings, collected from two players
+**Activities**: Hit vs Miss swings, collected from two players
 
-Windowing: 1s, 2s, 3s, 4s sliding windows
+**Windowing**: 1s, 2s, 3s, 4s sliding windows
 
-Features: Mean, median, standard deviation, RMS
+**Features**: Mean, median, standard deviation, RMS
 
-Models: Random Forest, Logistic Regression, SVM
+**Models**: Random Forest, Logistic Regression, SVM
 
-Feature Selection: Recursive Feature Elimination (RFE)
+**Feature Selection**: Recursive Feature Elimination (RFE)
+
 
 **Results**
-Model	Best Accuracy
+_Model	Best Accuracy_
 Random Forest	96.66%
 Logistic Regression	96.52%
 SVM	98.26%
 
 SVM with a 4-second window achieved the highest accuracy, showing strong separation between hit and miss classes with minimal false predictions.
+
 
 **Highlights**
 
